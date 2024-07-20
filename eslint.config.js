@@ -9,10 +9,10 @@ export default [
   eslintPluginPrettierRecommended,
   {
     rules: {
-      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }], // 未使用变量报错，但是忽略以 _ 开头的参数
+      'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }], // 未使用变量报错，但是忽略以 _ 开头的参数
       'no-undef': 'warn',
       // semi: 'error',
-      'prefer-const': 'error',
+      'prefer-const': 'warn',
     },
     languageOptions: {
       parser: vueEslintParser,
