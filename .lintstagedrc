@@ -6,7 +6,7 @@
   ],
   "package.json": ["prettier --write", "git add"],
   "*.vue": ["eslint --fix", "prettier --write", "stylelint --fix", "git add"],
-  "*.{scss,less,css,html}": ["stylelint --fix", "prettier --write", "git add"],
+  "*.{scss,less,css,html}": ["prettier --write", "git add"],
   "*.md": ["prettier --write", "git add"],
   "*.{json}": ["prettier --write", "git add"]
 }
