@@ -13,6 +13,7 @@ export default [
       'no-undef': 'warn',
       // semi: 'error',
       'prefer-const': 'warn',
+      'prettier/prettier': ['error', { endofLine: 'auto' }],
     },
     languageOptions: {
       parser: vueEslintParser,
