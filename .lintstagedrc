@@ -1,12 +1,11 @@
 {
   "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"],
   "{!(package)*.json,*.code-snippets}": [
-    "prettier --write--parser json",
-    "git add"
+    "prettier --write--parser json"
   ],
   "package.json": ["prettier --write"],
   "*.vue": ["eslint --fix", "prettier --write", "stylelint --fix"],
   "*.{scss,less,css,html}": ["prettier --write"],
   "*.md": ["prettier --write"],
-  "*.{json}": ["prettier --write"]
+  "*.json": ["prettier --write"]
 }

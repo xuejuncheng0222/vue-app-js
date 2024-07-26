@@ -4,7 +4,7 @@
 branch_name=$(git symbolic-ref --short HEAD)
 
 # 分支名规则
-pattern="^((fix|feat)-[a-z]{2,}-([a-zA-Z0-9]+)|main|master|release-[a-zA-Z0-9-]+)$"
+pattern="^((fix|feat)-[a-z]{2,}-([a-zA-Z0-9]+)|main|master|dev|release-[a-zA-Z0-9-]+)$"
 
 # 正则不匹配就错误提示
 if [[ ! $branch_name =~ $pattern ]]; then

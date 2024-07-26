@@ -1,0 +1,59 @@
+{
+  "prettier.configPath": ".prettierrc",
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "window.zoomLevel": 2,
+  "commit-message-editor.view.tabSize": 2,
+  "editor.tabSize": 2,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [
+    "axios",
+    "datetimerange",
+    "echarts",
+    "inittext",
+    "mockjs",
+    "msun",
+    "xuejuncheng"
+  ],
+  "workbench.colorTheme": "Default Dark+",
+  "update.mode": "start",
+  "Codegeex.Privacy": true,
+  "Codegeex.EnableExtension": false,
+  "var-translate-en.baiduAppid": "20231228001924007",
+  "var-translate-en.baiduSecretKey": "65lwWemS5ojKgt6vexV6",
+  "var-translate-en.translateServe": "baidu",
+  "cSpell.allowedSchemas": [
+    "file",
+    "gist",
+    "repo",
+    "sftp",
+    "untitled",
+    "vscode-notebook-cell",
+    "vscode-scm",
+    "vscode-userdata",
+    "vue"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwind-fold.autoFold": false,
+  "remote.extensionKind": {
+    "GitHub.copilot": ["ui"],
+    "github.copilot-chat": ["ui"]
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false
+}
