@@ -4,7 +4,7 @@
     "prettier --write--parser json"
   ],
   "package.json": ["prettier --write"],
-  "*.vue": ["eslint --fix", "prettier --write", "stylelint --fix"],
+  "*.vue": ["eslint --fix", "prettier --write"],
   "*.{scss,less,css,html}": ["prettier --write"],
   "*.md": ["prettier --write"],
   "*.json": ["prettier --write"]

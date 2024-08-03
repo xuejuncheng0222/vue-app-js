@@ -14,6 +14,7 @@ export default [
       // semi: 'error',
       'prefer-const': 'warn',
       'prettier/prettier': ['error', { endofLine: 'auto' }],
+      'no-debugger': 'off',
     },
     languageOptions: {
       parser: vueEslintParser,
