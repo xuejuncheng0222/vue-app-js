@@ -1,13 +1,15 @@
 <script setup>
 import { ref } from 'vue'
+import { register } from '@/api/login/login.js'
+import SlideVerification from './SlideVerification.vue'
 
 defineProps({
   msg: String,
 })
 
-const count = ref(0)
-
 const cssColor = ref('red')
+
+register()
 
 function getRandomColor() {
   console.log(1)
@@ -23,16 +25,9 @@ function getRandomColor() {
 <template>
   <div :style="{ backgroundColor: cssColor }">
     <h1>{{ msg }}</h1>
-    <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
-    <div class="scss-f">
-      测试SASS
-      <div class="scss-c">测试SASS子元素</div>
-    </div>
-    <div v-if="true" class="scss-c" :c="1">对照SASS</div>
-    <div class="use-var">-------------使用SASS变量------------</div>
-    <div class="mixin-box">使用mixin</div>
-    <div class="extend-test">----嵌入 (@extend)------</div>
+
     <div class="test" @click="cssColor = getRandomColor()">测试css@if@else</div>
+    <SlideVerification />
   </div>
 </template>
 

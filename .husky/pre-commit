@@ -1,6 +1,5 @@
-#!/usr/bin/env sh
 
 # 校验分支
-. "$(dirname -- "$0")git-check/branch.sh"
+. "$(dirname -- "$0")/_git-check/branch.sh"
 
 npx --no-install lint-staged

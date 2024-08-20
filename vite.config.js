@@ -10,6 +10,14 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    proxy: {
+      '/knowServer': {
+        target: 'https://imsp.msunhis.com/', // 测试服
+        changeOrigin: true,
+      },
+    },
+  },
   plugins: [
     vue(),
     eslintPlugin({
